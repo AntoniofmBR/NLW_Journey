@@ -1,0 +1,70 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env
+.env.*.local
+
+# Log files
+logs
+*.log
+*.log.*
+
+# Dependency directories
+jspm_packages/
+
+# IDE specific files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# React/React Native
+*.expo
+.expo-shared/
+*.jks
+*.keystore
+android/app/build/
+ios/Pods/
+ios/Podfile.lock
+ios/build/
+ios/Runner.xcworkspace/
+*.xcuserdata/
+*.lock
+*.log
+
+# Build directories
+build/
+dist/
+tmp/
+temp/
+out/
+coverage/
+
+# Misc
+*.bak
+*.tmp
+*.old
+*.swp
+*.swo
+*.pid
+
+# Service workers
+workbox-config.js
+
+# Test files
+__tests__/
+__mocks__/
+coverage/
+jest.config.js
+jest.setup.js
